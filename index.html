@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="car">
+        <nav>
+            <img src="img/logo.jpg" class="logo">
+            <a href="#" class="btn">Contact :- +91 8101257248</a>
+        </nav>
+        <div class="content">
+            <h2>SS TRAVELS</h2>
+            <h1>CAR RENT</h1>
+            <p>Save money on hire cars on SS TRAVELS. SS TRAVELS. Whether you are looking for an railway Station hire car or just a cheap alternative near you, you can compare discount car hires best deals faster at SS TRAVELS. Office :- Desbandhu Road, Purulia, 723101</p>
+            <h3>Choose Your Colour</h3>
+            <div class="color-select">
+                <div id="Blue"></div>
+                <div id="Yellow"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let Bluebtn = document.getElementById("Blue");
+        let Yellowbtn = document.getElementById("Yellow");
+        let car = document.getElementById("car");
+
+        Bluebtn.onclick = function(){
+            car.style.backgroundImage = "url(img/bcar.jpg)"
+        }
+
+        Yellowbtn.onclick = function(){
+            car.style.backgroundImage = "url(img/ycar.jpg)"
+        }
+    </script>
+</body>
+</html>
